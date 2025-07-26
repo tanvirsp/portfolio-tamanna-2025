@@ -115,9 +115,9 @@ export default function Resume() {
   ]
 
   return (
-        <section id="resume" className="py-20 bg-white">
+        <section id="resume" className=" bg-white">
     <motion.div 
-      className="min-h-screen p-8 text-white overflow-hidden"
+      className="min-h-screen p-8 text-white py-20 overflow-hidden"
       animate={controls}
     >
       <motion.div

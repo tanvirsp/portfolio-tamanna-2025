@@ -61,9 +61,9 @@ const Skills: React.FC = () => {
   };
 
   return (
-    <section id="skills" className="py-20 bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50">
+    <section id="skills" className="py-20 bg-gradient-to-r from-indigo-50 to-pink-50  bg-gradient-to-r dark:from-gray-800 dark:to-gray-800 ">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center text-gray-800 animate-fade-in-down">Skills</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center text-gray-800 dark:text-white animate-fade-in-down">Skills</h2>
         <div className="flex justify-center mb-8 flex-wrap">
           {categories.map((category, index) => (
             <button

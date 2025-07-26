@@ -137,7 +137,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative h-screen flex bg-white dark:bg-gray-950 items-center justify-center overflow-hidden">
       <canvas ref={canvasRef} className="absolute inset-0" />
       <div className="relative z-10 text-center">
         <h1

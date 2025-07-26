@@ -370,13 +370,13 @@ predictions = model.predict(X_test)
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section id="services" className="py-20 bg-gradient-to-br from-gray-50 to-gray-100  dark:from-gray-600 dark:to-gray-600">
       <div className="container mx-auto px-4">
         <motion.h2
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-5xl font-extrabold mb-12 text-center text-gray-800 relative inline-block"
+          className="text-5xl font-extrabold mb-12 text-center text-gray-800 relative inline-block dark:text-white"
         >
           Our Services
           <span className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-teal-400 via-green-500 to-purple-500"></span>

@@ -84,7 +84,7 @@ const Contact: React.FC = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-r from-purple-100 via-blue-100 to-pink-100">
+    <section id="contact" className="py-20 bg-gradient-to-r from-purple-100 via-blue-100 to-pink-100  dark:from-gray-800 dark:via-gray-800 dark:to-gray-800">
       <div className="container mx-auto px-4">
         <motion.h2
           className="text-5xl font-extrabold mb-12 text-center text-gray-800"

@@ -252,9 +252,9 @@ const Blog: React.FC = () => {
   };
 
   return (
-    <section id="blog" className="py-20 bg-gray-100">
+    <section id="blog" className="py-20 bg-gray-100 dark:bg-gray-700">
       <div className="container mx-auto px-4">
-        <h2 className="text-4xl font-bold mb-12 text-center">Blog</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center dark:text-white">Blog</h2>
 
         {/* Tag Buttons */}
         <div className="flex flex-wrap justify-center mb-8">

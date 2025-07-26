@@ -106,7 +106,7 @@ const LevelFilter = ({ levels, selectedLevel, onSelectLevel }) => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <h3 className="text-xl font-bold mb-4 text-indigo-700">Filter by Level:</h3>
+      <h3 className="text-xl font-bold mb-4 text-indigo-700 dark:text-indigo-400">Filter by Level:</h3>
       <div className="flex flex-wrap gap-2">
         {levels.map((level, index) => (
           <motion.button
@@ -231,10 +231,10 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20 bg-gradient-to-b from-blue-50 to-indigo-100">
+    <section id="projects" className="py-20 bg-gradient-to-b from-blue-50 to-indigo-100   dark:from-gray-700 dark:to-gray-800">
       <div className="container mx-auto px-4">
         <motion.h2 
-          className="text-4xl font-extrabold mb-12 text-center text-indigo-700"
+          className="text-4xl font-extrabold mb-12 text-center text-indigo-700 dark:text-indigo-400"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
